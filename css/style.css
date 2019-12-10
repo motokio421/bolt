@@ -1,10 +1,10 @@
  /* font読み込み */
+.font-family{
+  font-family: 'Raleway', sans-serif;
+}
 
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700,900);
 
-
-.aaa{
+body{
   font-family: 'Lato', sans-serif;
 }
 
@@ -15,6 +15,10 @@
 }
 
 /* ヘッダー作成 */
+.inner-header{
+  height: 40px;
+}
+
 .header{
   background-color: #fff;
   padding-top: 15px;
@@ -33,17 +37,21 @@
   color: #fff;
   float: right;
   transition-duration:0.3s;
+  text-decoration: none;
 }
 
 .contact-button:hover {
   /* 変化後の色 */
-  color: #74cfae;
+  color: #333;
 }
 
 /* graybox */
 /* header との重なり解消 */
-.mainbox {
+.main{
   padding-top: 70px;
+}
+.mainbox {
+  /* padding-top: 70px; */
   z-index: 10;
 }
 
@@ -55,10 +63,10 @@
 
 .greentext{
   font-size: 90px;
-  font-weight: 700px;
+  font-weight: 700;
   color: #74cfae;
   text-align: center;
-  font-family: 'Raleway', sans-serif;
+  /* font-family: 'Raleway', sans-serif; */
 }
 
 .graytext{
@@ -71,13 +79,11 @@
 /* greenbox作成 */
 .main-green-box{
   background-color: #74cfae;
-  height: 345px;
-  width: 100%;
+  padding-top: 50px;
 }
 
 .greenbox{
-  padding-top: 50px;
-  margin: 0 auto;
+ vertical-align: bottom;
 }
 
 .main-text-long{
@@ -86,13 +92,13 @@
   width: 600px;
 } 
 
-.text1{
+.text-greenbox{
   font-size: 24px;
   text-align: center;
-  font-family: 'Raleway', sans-serif;
+  /* font-family: 'Raleway', sans-serif; */
 } 
 
-.text2{
+.text-greenbox-long{
   font-size: 20px;
   margin-top: 35px; 
   text-align: center;
@@ -105,12 +111,12 @@
   padding-bottom: 70px;
 }
 
-.section-text{
+.gray-phot-text{
   text-align: center;
   font-size: 24px;
   padding-top: 60px;
   padding-bottom: 40px;
-  font-family: 'Raleway', sans-serif;
+  /* font-family: 'Raleway', sans-serif; */
 }
 
 /* 写真横並び */
@@ -151,32 +157,34 @@ margin-bottom: 80px;
 }
 
 .Email-button{
-  background-color:  #74cfae;
+  background-color: #74cfae;
   color: #fff;
   padding: 14px 20px;
   font-size: 12px;
   display: inline-block;margin-left: 90px;
   transition-duration:0.3s;
+  text-decoration: none;
 }
 
 .Email-button:hover{
-  color: #74cfae;
+  color: #333;
 }
 
 /* クルクルbox */
 .skill-box{
   background-color: #4e4e4e;
+  padding-top: 70px;
+  padding-bottom: 100px;
 }
 
 .skill-main-text {
   color: #fff;
   text-align: center;
-  padding-top: 70px;
+  font-size: 24px;
+  margin-bottom: 70px;
 } 
 
 .main-circle-box {
-  padding-bottom: 100px;
-  padding-top: 70px;
   margin: 0 auto;
   text-align: center;
 }
@@ -194,12 +202,12 @@ margin-bottom: 80px;
 /* SNSコンテンツ */
 .sns-box{
   background-color: #f2f2f2;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .font{
   color: #74cfae;
-  padding-top: 200px;
-  padding-bottom: 200px;
   text-align: center;
 }
 
@@ -207,6 +215,7 @@ margin-bottom: 80px;
   width: 185px;
   display: inline-block;
   transition-duration:0.3s;
+  padding: 30px;
 }
 
 .font-box:hover{
@@ -216,6 +225,8 @@ margin-bottom: 80px;
 /* footer */
 .main-footer{
   background-color:  #74cfae;
+  padding-top: 20px;
+  padding-bottom: 25px;
 }
 
 .footer-text{ 
@@ -223,8 +234,5 @@ margin-bottom: 80px;
   text-align: right;
 }
 
-.footer-box{
-  padding-top: 20px;
-  padding-bottom: 25px;
-}
+
 
