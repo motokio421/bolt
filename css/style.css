@@ -15,8 +15,10 @@ body{
 }
 
 /* ヘッダー作成 */
-.inner-header{
-  height: 40px;
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
 .header{
@@ -47,18 +49,21 @@ body{
 
 /* graybox */
 /* header との重なり解消 */
-.main{
+ .main{
   padding-top: 70px;
-}
+} 
+
 .mainbox {
-  /* padding-top: 70px; */
   z-index: 10;
+  background-color: #f2f2f2;
+  padding-top: 250px;
+  padding-bottom: 250px;
 }
 
 .gray-main-box{
-  background-color: #f2f2f2;
-  width: 100%;
-  padding: 250px 0;
+  /* background-color: #f2f2f2; */
+  /* width: 100%;  */
+   /* padding: 250px 0; */
 }
 
 .greentext{
@@ -107,7 +112,7 @@ body{
 /* gray-phot-box */
 .gray-phot-box{
   background-color: #f2f2f2;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   padding-bottom: 70px;
   padding-top: 60px;
 }
@@ -124,7 +129,7 @@ body{
 .small-phot-box1{
   font-size: 0;
   display: inline-block;
-  margin-bottom: 80px;
+  /* margin-bottom: 80px; */
 }
 
 .img-box{
@@ -148,12 +153,12 @@ margin-top: 0;
 }
 
 /* 画像の下の文字 */
-.section-box{
+.Email-box{
   margin-top: 90px;
   text-align: center;
 }
 
-.bottom-section-text{
+.bottom-email-text{
   text-align: center;
   width: 550px;
   display: inline-block;
@@ -188,7 +193,7 @@ margin-top: 0;
 } 
 
 .main-circle-box {
-  margin: 0 auto;
+  /* margin: 0 auto; */
   text-align: center;
 }
 
@@ -218,7 +223,8 @@ margin-top: 0;
   width: 185px;
   display: inline-block;
   transition-duration:0.3s;
-  padding: 30px;
+  /* padding: 30px 0px; */
+  padding: 20px 0px;
 }
 
 .font-box:hover{
