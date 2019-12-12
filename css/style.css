@@ -84,7 +84,7 @@ body{
 /* greenbox作成 */
 .main-green-box{
   background-color: #74cfae;
-  padding-top: 50px;
+  padding-top: 50px; 
 }
 
 .greenbox{
@@ -120,15 +120,16 @@ body{
 .gray-phot-text{
   text-align: center;
   font-size: 24px;
+  margin-bottom: 40px;
   /* padding-top: 60px; */
-  padding-bottom: 40px;
+  /* padding-bottom: 40px; */
   /* font-family: 'Raleway', sans-serif; */
 }
 
 /* 写真横並び */
 .small-phot-box1{
   font-size: 0;
-  display: inline-block;
+  /* display: inline-block; */
   /* margin-bottom: 80px; */
 }
 
@@ -252,76 +253,82 @@ margin-top: 0;
     width: 97%;
   }
 
-/* スマホボックス */
-/* iphone green box */
-.main-green-box{
-  padding-top: 50px;
-  padding-bottom: 25px;
-}
+  /* スマホボックス */
+  /* iphone green box */
+  .main-green-box{
+    /* padding-top: 50px; */
+    padding-bottom: 25px;
+  }
 
-.box-iphone{
-  display: block;
-}
+  .box-iphone{
+    display: block;
+  }
 
-.text-greenbox{
-  margin-top: 20px;
-}
+  .text-greenbox{
+    margin-top: 20px;
+  }
 
-.main-text-long{
-  display: block;
- margin: 0 145px;
-}
+  .main-text-long{
+    display: block;
+    width: 100%;
+    float: none;
+  }
 
-.box-iphone{
-  margin: auto;
-}
+  .box-iphone{
+    margin: auto;
+  }
 
-/* 写真box */
-.gray-phot-box{
-  padding-bottom: 70px;
-  padding-top: 60px;
-  text-align: center;
-}
+  /* 写真box */
+  .gray-phot-box{
+    /* padding-bottom: 70px;
+    padding-top: 60px; */
+    text-align: center;
+  }
 
-.small-phot-box1{
-  text-align: center;
-}
+  .small-phot-box1{
+    text-align: center;
+  }
 
-.img-box{
-  margin-right: 0;
-  display: block;
-}
+  .img-box{
+    margin-right: 0;
+    display: block;
+  }
 
 
-.img-box:nth-child(n+2){
-  margin-top: 0px;
-}
+  .img-box:nth-child(n+2){
+    margin-top: 0px;
+  }
 
-.img-box:nth-child(4) {
-  margin-top: 80px;
-}
+  .img-box:nth-child(3n) {
+    margin-bottom: 80px;
+  }
 
-.Email-button{
-  display: block;
-  margin: 0 auto;
-  margin-top: 40px;
-  width: 60px;
-}
-/* クルクルbox */
-.circle-box{
-  display: block;
-  margin-right: 0;
-  margin-top: 88px;
-}
+  .botton-email-text{
+    width: 100%;
+  }
 
-.circle-box:first-child{
-  margin-top: 0px;
-}
+  .Email-button{
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 60px;
+  }
+  /* クルクルbox */
+  .circle-box{
+    display: block;
+    margin-right: 0;
+    margin-top: 88px;
+  }
 
-/* Sns box */
-.font-box{
-  width: 100px;
-}
+  .circle-box:first-child{
+    margin-top: 0px;
+  }
+
+  /* Sns box */
+
+  .font-box{
+    width: 20%;
+  }
 
 }
 
@@ -336,6 +343,7 @@ margin-top: 0;
 
   /* hamberger */
 
+
  .fa-bolt{
    float: left;
  }
@@ -345,15 +353,19 @@ margin-top: 0;
    float: right;
  }
 
+ .fa-bars:hover{
+   color: #74cfae;
+ }
+
   /* bolt theme box */
   .mainbox{
     padding: 160px 0;
-    background-color: #f2f2f2;
+    /* background-color: #f2f2f2; */
   }
 
-  .graytext{
+  /* .graytext{
     font-size: 30px;
-  }
+  } */
 
   /* green iPhone box */
   .main-green-box{
@@ -367,7 +379,7 @@ margin-top: 0;
   .main-text-long{
     margin-top: 20px;
     font-size: 50%;
-    margin: 20px 78px;
+    /* margin: 20px 78px; */
   }
 
  .box-iphone{
@@ -406,37 +418,31 @@ margin-top: 0;
   margin-top: 80px;
 } */
 
-　.bottom-email-text{
-  display: block;
-  width: 400px;
-}
+  .bottom-email-text{
+    display: block;
+    width: 100%;
+  }
 
-.Email-button{
-  /* display: block;
-  margin: auto; */
-  margin-top: 50px;
-  width: 200px;
+  .Email-button{
+    /* display: block;
+    margin: auto; */
+    /* margin-top: 50px; */
+    width: 200px;
+  }
 
-}
+  /* クルクルbox */
 
-/* クルクルbox */
-.circle-box{
-  /* display: block; */
-/* pcのmarginなくす */
-  /* margin-right: 0; */
-  margin-top: 100px;
-}
+  /* SNSBox */
 
-/* SNSBox */
+  .font-box{
+    display: block;
+    width: 100%;
+  }
 
-.font-box{
-  display: block;
-  width: 100%;
-}
+  .sns-box{
+    padding: 50px 0;
+  }
 
-.sns-box{
-  padding: 50px 15px;
-}
 }
 
 
