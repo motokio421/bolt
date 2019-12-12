@@ -21,10 +21,15 @@ body{
   clear: both;
 }
 
+.fa-bars{
+  display: none;
+}
+
 .header{
   background-color: #fff;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding: 15px 0;
+  /* padding-top: 15px;
+  padding-bottom: 15px; */
   position: fixed;
   top: 0;
   left: 0;
@@ -56,14 +61,9 @@ body{
 .mainbox {
   z-index: 10;
   background-color: #f2f2f2;
-  padding-top: 250px;
-  padding-bottom: 250px;
-}
-
-.gray-main-box{
-  /* background-color: #f2f2f2; */
-  /* width: 100%;  */
-   /* padding: 250px 0; */
+  padding: 250px 0;
+  /* padding-top: 250px;
+  padding-bottom: 250px; */
 }
 
 .greentext{
@@ -92,9 +92,9 @@ body{
 }
 
 .main-text-long{
-  float: right;
+  float: right; 
   color: #fff;
-  width: 600px;
+  width: 60%;
 } 
 
 .text-greenbox{
@@ -160,7 +160,7 @@ margin-top: 0;
 
 .bottom-email-text{
   text-align: center;
-  width: 550px;
+  width: 40%;
   display: inline-block;
 }
 
@@ -242,6 +242,212 @@ margin-top: 0;
   color: #fff;
   text-align: right;
 }
+
+
+/* レスポンシブ　TAB */
+
+@media screen and (max-width:1199px){
+  
+  .inner{
+    width: 97%;
+  }
+
+/* スマホボックス */
+/* iphone green box */
+.main-green-box{
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+.box-iphone{
+  display: block;
+}
+
+.text-greenbox{
+  margin-top: 20px;
+}
+
+.main-text-long{
+  display: block;
+ margin: 0 145px;
+}
+
+.box-iphone{
+  margin: auto;
+}
+
+/* 写真box */
+.gray-phot-box{
+  padding-bottom: 70px;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.small-phot-box1{
+  text-align: center;
+}
+
+.img-box{
+  margin-right: 0;
+  display: block;
+}
+
+
+.img-box:nth-child(n+2){
+  margin-top: 0px;
+}
+
+.img-box:nth-child(4) {
+  margin-top: 80px;
+}
+
+.Email-button{
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 60px;
+}
+/* クルクルbox */
+.circle-box{
+  display: block;
+  margin-right: 0;
+  margin-top: 88px;
+}
+
+.circle-box:first-child{
+  margin-top: 0px;
+}
+
+/* Sns box */
+.font-box{
+  width: 100px;
+}
+
+}
+
+
+/* レスポンシブ　スマホ */
+@media screen and (max-width:767px){
+
+  /* header */
+  .contact-button{
+    display: none;
+  }
+
+  /* hamberger */
+
+ .fa-bolt{
+   float: left;
+ }
+
+ .fa-bars{
+   display: block;
+   float: right;
+ }
+
+  /* bolt theme box */
+  .mainbox{
+    padding: 160px 0;
+    background-color: #f2f2f2;
+  }
+
+  .graytext{
+    font-size: 30px;
+  }
+
+  /* green iPhone box */
+  .main-green-box{
+  padding: 50px 0;
+  }
+
+  .greenbox{
+    text-align: center;
+  }
+
+  .main-text-long{
+    margin-top: 20px;
+    font-size: 50%;
+    margin: 20px 78px;
+  }
+
+ .box-iphone{
+   display: inline-block;
+   text-align: center;
+ }
+  
+  .text-greenbox{
+    font-size: 15px; 
+  }
+
+  .text-greenbox-long{
+    margin-top: 15px;
+    font-size: 14px;
+    width: 100%;
+  }
+
+
+  /* Email section text2 */
+/* .gray-phot-box{
+  /* text-align: center; */
+
+/* .img-box{
+  margin-right: 0;
+} */
+
+/* .small-phot-box1{
+  
+/* } */
+
+/* .img-box:nth-child(n+2){
+  margin-top: 0px;
+}  */
+
+/* .img-box:nth-child(4) {
+  margin-top: 80px;
+} */
+
+　.bottom-email-text{
+  display: block;
+  width: 400px;
+}
+
+.Email-button{
+  /* display: block;
+  margin: auto; */
+  margin-top: 50px;
+  width: 200px;
+
+}
+
+/* クルクルbox */
+.circle-box{
+  /* display: block; */
+/* pcのmarginなくす */
+  /* margin-right: 0; */
+  margin-top: 100px;
+}
+
+/* SNSBox */
+
+.font-box{
+  display: block;
+  width: 100%;
+}
+
+.sns-box{
+  padding: 50px 15px;
+}
+}
+
+
+  
+    
+  
+
+
+
+
+
 
 
 
