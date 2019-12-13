@@ -139,6 +139,7 @@ body{
   opacity: 0.7;
   transition-duration:0.3s;
   margin-top: 80px;
+  width: 300px;
 }
 
 .img-box:hover{
@@ -218,6 +219,7 @@ margin-top: 0;
 .font{
   color: #74cfae;
   text-align: center;
+  font-size: 0;
 }
 
 .font-box{
@@ -226,6 +228,7 @@ margin-top: 0;
   transition-duration:0.3s;
   /* padding: 30px 0px; */
   padding: 20px 0px;
+  font-size: 20px;
 }
 
 .font-box:hover{
@@ -269,7 +272,7 @@ margin-top: 0;
   }
 
   .main-text-long{
-    display: block;
+    /* display: block; */
     width: 100%;
     float: none;
   }
@@ -279,39 +282,33 @@ margin-top: 0;
   }
 
   /* 写真box */
-  .gray-phot-box{
-    /* padding-bottom: 70px;
-    padding-top: 60px; */
-    text-align: center;
-  }
-
-  .small-phot-box1{
-    text-align: center;
-  }
+  
 
   .img-box{
     margin-right: 0;
     display: block;
-  }
-
-
-  .img-box:nth-child(n+2){
     margin-top: 0px;
+    margin: 0 auto;
   }
 
   .img-box:nth-child(3n) {
     margin-bottom: 80px;
+    margin-right: auto;
   }
 
-  .botton-email-text{
+  .img-box:last-child{
+    margin-bottom: 0;
+  }
+
+  .bottom-email-text{
     width: 100%;
   }
 
   .Email-button{
-    display: block;
+    /* display: block; */
     margin: 0 auto;
     margin-top: 40px;
-    width: 60px;
+    /* width: 60px; */
   }
   /* クルクルbox */
   .circle-box{
@@ -327,7 +324,7 @@ margin-top: 0;
   /* Sns box */
 
   .font-box{
-    width: 20%;
+    width: 25%;
   }
 
 }
@@ -344,13 +341,14 @@ margin-top: 0;
   /* hamberger */
 
 
- .fa-bolt{
-   float: left;
- }
 
  .fa-bars{
    display: block;
    float: right;
+   border: 5px solid black;
+   border-radius: 3px;
+   padding: 3px;
+   font-size: 30px;
  }
 
  .fa-bars:hover{
@@ -359,7 +357,8 @@ margin-top: 0;
 
   /* bolt theme box */
   .mainbox{
-    padding: 160px 0;
+    padding-top: 160px;
+    padding-bottom: 130px;
     /* background-color: #f2f2f2; */
   }
 
@@ -378,7 +377,7 @@ margin-top: 0;
 
   .main-text-long{
     margin-top: 20px;
-    font-size: 50%;
+    /* font-size: 50%; */
     /* margin: 20px 78px; */
   }
 
@@ -407,8 +406,8 @@ margin-top: 0;
 } */
 
 /* .small-phot-box1{
-  
-/* } */
+  margin-left: 50px;
+ } */
 
 /* .img-box:nth-child(n+2){
   margin-top: 0px;
@@ -423,14 +422,11 @@ margin-top: 0;
     width: 100%;
   }
 
-  .Email-button{
+  /* .Email-button{
     /* display: block;
     margin: auto; */
     /* margin-top: 50px; */
-    width: 200px;
-  }
-
-  /* クルクルbox */
+    /* width: 200px; */
 
   /* SNSBox */
 
